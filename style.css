@@ -1,0 +1,103 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Main Container */
+  .container {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styling */
+  .entry-form input,
+  .entry-form textarea,
+  .search input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .entry-form textarea {
+    height: 150px;
+    resize: vertical;
+    overflow-y: auto;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Entries Styling */
+  .journal-list {
+    margin-top: 20px;
+  }
+  
+  .entry {
+    background: #f9f9f9;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .entry h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .entry p {
+    margin-bottom: 8px;
+    line-height: 1.5;
+  }
+  
+  .entry small {
+    display: block;
+    color: #777;
+  }
+  
+  .entry button {
+    background-color: #f44336;
+    margin-top: 8px;
+  }
+  
+  .entry button:hover {
+    background-color: #d32f2f;
+  }
+  
